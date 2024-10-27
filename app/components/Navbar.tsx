@@ -1,9 +1,14 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
+import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 import { ChevronDown, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
   return (
     <nav className="w-full p-3">
       <div className="flex flex-wrap items-center justify-between">
@@ -38,6 +43,16 @@ export default function Navbar() {
           <Button variant="secondary" size="sm" className="text-xs lg:text-sm">
             English
           </Button>
+          <button
+            onClick={() => setIsDarkMode(!isDarkMode)}
+            className="rounded-full bg-gray-200 p-2 transition hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            {isDarkMode ? (
+              <MoonIcon className="h-6 w-6 text-gray-700 dark:text-yellow-400" />
+            ) : (
+              <SunIcon className="h-6 w-6 text-yellow-400" />
+            )}
+          </button>
         </div>
 
         <Button variant="ghost" size="icon" className="sm:hidden">

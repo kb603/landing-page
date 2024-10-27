@@ -11,7 +11,7 @@ export default function CashBack() {
         Cashback is simple and quick without discount codes or points, instant
         cash rewards.
       </p>
-      <div className="ml-5 mt-10 flex items-center gap-10">
+      <div className="ml-5 mt-10 flex flex-nowrap items-center gap-10 overflow-x-scroll">
         <Image
           src="/images/Music card.svg"
           alt="Music Card"

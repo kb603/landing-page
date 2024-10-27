@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroScreen from "./components/HeroScreen";
 import CardPresentation from "./components/CardPresentation";
 import AppPresentation from "./components/AppPresentation";
+import CashBack from "./components/CashBack";
 
 export default function LandingPage() {
   return (
@@ -10,6 +11,7 @@ export default function LandingPage() {
       <HeroScreen />
       <CardPresentation />
       <AppPresentation />
+      <CashBack />
     </div>
   );
 }

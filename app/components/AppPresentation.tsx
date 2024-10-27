@@ -98,16 +98,17 @@ export default function AppPresentation() {
 
           <div className="flex items-start gap-5">
             <Image
-              src="/images/Save money circle.svg"
+              src="/images/Request circle.svg"
               alt="24/7 Support icon"
               width={68}
               height={68}
               className="ml-4 flex-shrink-0"
             />
             <div>
-              <p className="text-lg font-bold text-gray-700">Save Money</p>
+              <p className="text-lg font-bold text-gray-700">Request Money</p>
               <p className="mt-3 text-sm">
-                Open saving account,save money regularly.
+                Select a contact, set the amount, add your message, and send
+                your request.
               </p>
             </div>
           </div>
@@ -121,9 +122,12 @@ export default function AppPresentation() {
               className="ml-4 flex-shrink-0"
             />
             <div>
-              <p className="text-lg font-bold text-gray-700">Save Money</p>
+              <p className="text-lg font-bold text-gray-700">
+                Pay & Receive Payments with QR
+              </p>
               <p className="mt-3 text-sm">
-                Open saving account,save money regularly.
+                Make payments by scanning a QR code. Share your QR code to
+                receive instant payments.
               </p>
             </div>
           </div>

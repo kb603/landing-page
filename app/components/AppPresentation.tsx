@@ -34,16 +34,14 @@ export default function AppPresentation() {
 
           <div className="flex items-start justify-between">
             <div>
-              <p className="text-lg font-bold text-gray-700">
-                Manage your finances
-              </p>
+              <p className="text-lg font-bold text-gray-700">Spend debt free</p>
               <p className="mt-3 text-sm">
-                Keep track of your expenses and income <br /> with our intuitive
-                tools.
+                Know where your money goes. Track your spendings with charts in
+                real time.
               </p>
             </div>
             <Image
-              src="/placeholder.svg?height=68&width=68"
+              src="/images/Send-money -circle.svg"
               alt="Manage finances icon"
               width={68}
               height={68}
@@ -53,15 +51,14 @@ export default function AppPresentation() {
 
           <div className="flex items-start justify-between">
             <div>
-              <p className="text-lg font-bold text-gray-700">
-                Secure transactions
-              </p>
+              <p className="text-lg font-bold text-pink-400">Earn cashback</p>
               <p className="mt-3 text-sm">
-                Enjoy peace of mind with our advanced <br /> security measures.
+                Earn instant cashback as you spend. No minimum spending limits
+                or complicated rules.
               </p>
             </div>
             <Image
-              src="/placeholder.svg?height=68&width=68"
+              src="/images/Cashback-Fill.svg"
               alt="Secure transactions icon"
               width={68}
               height={68}
@@ -83,56 +80,52 @@ export default function AppPresentation() {
 
         {/* Right Descriptions */}
         <div className="space-y-6 text-left md:w-1/3">
-          <div className="flex items-start justify-between">
-            <div>
-              <p className="text-lg font-bold text-gray-700">24/7 Support</p>
-              <p className="mt-3 text-sm">
-                Get help anytime, anywhere with our <br /> dedicated support
-                team.
-              </p>
-            </div>
+          <div className="flex items-start gap-5">
             <Image
-              src="/placeholder.svg?height=68&width=68"
+              src="/images/Save money circle.svg"
               alt="24/7 Support icon"
               width={68}
               height={68}
               className="ml-4 flex-shrink-0"
             />
-          </div>
-
-          <div className="flex items-start justify-between">
             <div>
-              <p className="text-lg font-bold text-gray-700">Easy Transfers</p>
+              <p className="text-lg font-bold text-gray-700">Save Money</p>
               <p className="mt-3 text-sm">
-                Send money to friends and family <br /> with just a few taps.
+                Open saving account,save money regularly.
               </p>
             </div>
+          </div>
+
+          <div className="flex items-start gap-5">
             <Image
-              src="/placeholder.svg?height=68&width=68"
-              alt="Easy Transfers icon"
+              src="/images/Save money circle.svg"
+              alt="24/7 Support icon"
               width={68}
               height={68}
               className="ml-4 flex-shrink-0"
             />
-          </div>
-
-          <div className="flex items-start justify-between">
             <div>
-              <p className="text-lg font-bold text-gray-700">
-                Investment Options
-              </p>
+              <p className="text-lg font-bold text-gray-700">Save Money</p>
               <p className="mt-3 text-sm">
-                Grow your wealth with our diverse <br /> investment
-                opportunities.
+                Open saving account,save money regularly.
               </p>
             </div>
+          </div>
+
+          <div className="flex items-start gap-5">
             <Image
-              src="/placeholder.svg?height=68&width=68"
-              alt="Investment Options icon"
+              src="/images/Save money circle.svg"
+              alt="24/7 Support icon"
               width={68}
               height={68}
               className="ml-4 flex-shrink-0"
             />
+            <div>
+              <p className="text-lg font-bold text-gray-700">Save Money</p>
+              <p className="mt-3 text-sm">
+                Open saving account,save money regularly.
+              </p>
+            </div>
           </div>
         </div>
       </div>

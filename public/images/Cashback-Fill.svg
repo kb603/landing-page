@@ -1,0 +1,30 @@
+<svg width="72" height="71" viewBox="0 0 72 71" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_2034_3298)">
+<circle cx="36" cy="35.3071" r="34" fill="#CCCCCC" fill-opacity="0.2"/>
+<g filter="url(#filter1_f_2034_3298)">
+<circle cx="36.0003" cy="35.3072" r="32.2105" fill="#D760C7"/>
+</g>
+<path d="M39.7 18.9475H48.9667C51.9333 18.9475 52.6667 19.6808 52.6667 22.6142V29.4642C52.6667 32.3975 51.9333 33.1308 48.9667 33.1308H39.7C36.7333 33.1308 36 32.3975 36 29.4642V22.6142C36 19.6808 36.7333 18.9475 39.7 18.9475Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.3333 44.0476H35.9999" stroke="white" stroke-width="2.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.0333 38.1143H32.2999C35.2666 38.1143 35.9999 38.8476 35.9999 41.7809V48.6309C35.9999 51.5643 35.2666 52.2976 32.2999 52.2976H23.0333C20.0666 52.2976 19.3333 51.5643 19.3333 48.6309V41.7809C19.3333 38.8476 20.0666 38.1143 23.0333 38.1143Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52.6667 40.6143C52.6667 47.0643 47.45 52.2809 41 52.2809L42.75 49.3643" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M19.3333 30.6142C19.3333 24.1642 24.5499 18.9475 30.9999 18.9475L29.2499 21.8642" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_i_2034_3298" x="2" y="1.30713" width="68" height="68" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.843137 0 0 0 0 0.376471 0 0 0 0 0.780392 0 0 0 0.6 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_2034_3298"/>
+</filter>
+<filter id="filter1_f_2034_3298" x="0.789795" y="0.0966797" width="70.4211" height="70.4211" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_2034_3298"/>
+</filter>
+</defs>
+</svg>

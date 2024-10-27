@@ -5,10 +5,10 @@ import { MoonIcon, SunIcon } from "@heroicons/react/16/solid";
 import { ChevronDown, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useTheme } from "next-themes";
 
 export default function Navbar() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { resolvedTheme, theme, setTheme } = useTheme();
   return (
     <nav className="w-full p-3">
       <div className="flex flex-wrap items-center justify-between">
@@ -44,13 +44,15 @@ export default function Navbar() {
             English
           </Button>
           <button
-            onClick={() => setIsDarkMode(!isDarkMode)}
+            onClick={() => {
+              setTheme(resolvedTheme === "dark" ? "light" : "dark");
+            }}
             className="rounded-full bg-gray-200 p-2 transition hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            {isDarkMode ? (
-              <MoonIcon className="h-6 w-6 text-gray-700 dark:text-yellow-400" />
+            {theme === "light" ? (
+              <MoonIcon className="h-6 w-6 text-gray-700 dark:text-gray-400" />
             ) : (
-              <SunIcon className="h-6 w-6 text-yellow-400" />
+              <SunIcon className="h-6 w-6 text-gray-400" />
             )}
           </button>
         </div>

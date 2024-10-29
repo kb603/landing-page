@@ -4,6 +4,7 @@ import CardPresentation from "./components/CardPresentation";
 import AppPresentation from "./components/AppPresentation";
 import CashBack from "./components/CashBack";
 import Brands from "./components/Brands";
+import DownloadApp from "./components/DownloadApp";
 
 export default function LandingPage() {
   return (
@@ -14,6 +15,7 @@ export default function LandingPage() {
       <AppPresentation />
       <CashBack />
       <Brands />
+      <DownloadApp />
     </div>
   );
 }

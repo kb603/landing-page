@@ -3,6 +3,7 @@ import HeroScreen from "./components/HeroScreen";
 import CardPresentation from "./components/CardPresentation";
 import AppPresentation from "./components/AppPresentation";
 import CashBack from "./components/CashBack";
+import Brands from "./components/Brands";
 
 export default function LandingPage() {
   return (
@@ -12,6 +13,7 @@ export default function LandingPage() {
       <CardPresentation />
       <AppPresentation />
       <CashBack />
+      <Brands />
     </div>
   );
 }

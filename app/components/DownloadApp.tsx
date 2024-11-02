@@ -2,59 +2,65 @@ import Image from "next/image";
 
 export default function DownloadApp() {
   return (
-    <div>
-      <div className="m-5 mt-10 flex items-start">
+    <section className="container mx-auto px-4 py-12 md:py-24">
+      <div className="flex flex-col items-center gap-8 md:flex-row md:items-start md:justify-between">
         {/* Image section */}
-        <div className="mr-20 flex-shrink-0">
+        <div className="w-full max-w-md flex-shrink-0 md:w-1/2 lg:w-5/12">
           <Image
             src="/images/3D app mockup.svg"
-            alt="Business solutions"
-            className="dark: ml-20 mr-5"
+            alt="Parap mobile app mockup"
             width={500}
             height={500}
+            className="h-auto w-full"
           />
         </div>
 
-        {/* Text content */}
-        <div className="m-10 flex flex-1 flex-col">
-          <h1 className="text-3xl font-bold">Download Parap mobile</h1>
-          <p className="mt-5">
-            Manage your money smartly and earn while you <br /> spend with just
-            one app
+        {/* Text and download content */}
+        <div className="flex w-full max-w-md flex-col md:w-1/2 lg:w-6/12">
+          <h2 className="text-3xl font-bold md:text-4xl">
+            Download Parap mobile
+          </h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Manage your money smartly and earn while you spend with just one app
           </p>
 
           {/* QR code and App icons section */}
-          <div className="container mx-auto px-4 py-8 md:py-12">
-            <div className="md: flex flex-col items-center gap-8 lg:flex-row">
-              {/* QR Code */}
-              <div className="h-40 w-40">
-                <Image
-                  src="/images/QR with logo.svg"
-                  alt="QR code"
-                  width={160}
-                  height={160}
-                />
-              </div>
+          <div className="mt-8 flex flex-col items-center gap-8 sm:flex-row sm:items-start">
+            {/* QR Code */}
+            <div className="h-40 w-40 flex-shrink-0">
+              <Image
+                src="/images/QR with logo.svg"
+                alt="QR code to download Parap mobile app"
+                width={160}
+                height={160}
+                className="h-auto w-full"
+              />
+            </div>
 
-              {/* App icons */}
-              <div className="flex flex-col space-y-5">
+            {/* App icons */}
+            <div className="flex flex-col space-y-4">
+              <a href="#" className="inline-block">
                 <Image
                   src="/images/App store.svg"
                   alt="Download on the App Store"
                   width={217}
                   height={64}
+                  className="h-auto w-full max-w-[217px]"
                 />
+              </a>
+              <a href="#" className="inline-block">
                 <Image
                   src="/images/Play store.svg"
                   alt="Get it on Google Play"
                   width={217}
                   height={64}
+                  className="h-auto w-full max-w-[217px]"
                 />
-              </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

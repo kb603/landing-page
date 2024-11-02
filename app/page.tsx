@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 export default function LandingPage() {
   return (
-    <div className="mx-10 mt-5">
+    <div className="mt-5">
       <Navbar />
       <HeroScreen />
       <CardPresentation />
